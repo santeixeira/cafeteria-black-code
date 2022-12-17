@@ -1,0 +1,67 @@
+[
+  {
+    "title": "Black Code",
+    "description": "Café expresso, com grãos 100% arábica da Orfeu. Apresenta notas florais, frutadas e de caramelo.",
+    "photos": "https://images.pexels.com/photos/324028/pexels-photo-324028.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "size": 210,
+    "serving": 1,
+    "price": 6.00,
+    "id": 0,
+    "category": {
+      "id": 1,
+      "label": "Bebidas Quentes"
+    }
+  },
+  {
+    "title": "White Code",
+    "description": "A mocha, also known as a cafe mocha or caffè mocha, is a coffee drink made with chocolate, espresso, and milk.",
+    "photos": "https://images.pexels.com/photos/302888/pexels-photo-302888.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "size": 300,
+    "serving": 1,
+    "price": 9.90,
+    "id": 1,
+    "category": {
+      "id": 1,
+      "label": "Bebidas Quentes"
+    }
+  },
+  {
+    "title": "Croissant Simples",
+    "description": "A croissant is a laminated, yeast-leavened bakery product that contains dough/roll-in fat layers to create a flaky, crispy texture.",
+    "photos": "https://images.pexels.com/photos/2135/food-france-morning-breakfast.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "size": 100,
+    "serving": 1,
+    "price": 16.00,
+    "id": 2,
+    "category": {
+      "id": 3,
+      "label": "Comidas"
+    }
+  },
+  {
+    "title": "Sweet Chill",
+    "description": "A matcha latte is a tea latte made with green tea powder and steamed milk. Matcha replaces the espresso in a traditional cafe latte, giving it a brilliant green color and lightly bitter flavor.",
+    "photos": "https://images.pexels.com/photos/5946982/pexels-photo-5946982.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "size": 300,
+    "serving": 1,
+    "price": 12.00,
+    "id": 3,
+    "category": {
+      "id": 2,
+      "label": "Bebidas Frias"
+    }
+  },
+  {
+    "title": "Green Code",
+    "description": "A matcha latte is a tea latte made with green tea powder and steamed milk. Matcha replaces the espresso in a traditional cafe latte, giving it a brilliant green color and lightly bitter flavor.",
+    "photos": "https://images.pexels.com/photos/8329674/pexels-photo-8329674.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "size": 300,
+    "serving": 1,
+    "price": 12.00,
+    "id": 4,
+    "category": {
+      "id": 2,
+      "label": "Bebidas Frias"
+    }
+  }
+]

@@ -1,0 +1,29 @@
+@import "../../assets/config_scss/main.scss";
+
+$flexbox-height: 474px;
+
+.__banner {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: $flexbox-height;
+  left: 0px;
+  top: 0px;
+
+  & img {
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: $flexbox-height;
+    object-fit: cover;
+  }
+}
+
+.__banner_txt {
+  color: $white;
+  & h1 { margin: 0 0.85em; }
+  & h2 { margin: 0 1.25em; }
+  & h3 { margin: 0 2em; }
+}

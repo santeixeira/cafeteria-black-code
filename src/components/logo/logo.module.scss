@@ -1,0 +1,21 @@
+.__img {
+  height: 3em;
+  float: left;
+}
+
+.__txt {
+  font-family: "Kadwa", serif;
+  font-weight: 700;
+  font-size: 21px;
+  padding: 0em 0.557em;
+  margin: 0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  &:hover {
+    cursor: pointer;
+  }
+}

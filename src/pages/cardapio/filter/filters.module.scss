@@ -1,0 +1,29 @@
+
+@import "../../../assets/config_scss/color.scss";
+
+.filters {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin: 20px 0;
+
+  &__filter {
+    align-items: center;
+    background-color: #fdfdfd;
+    border: 2px solid black;
+    border-radius: 4px;
+    display: flex;
+    font-size: 1em;
+    font-weight: bold;
+    height: 40px;
+    justify-content: center;
+    width: 150px;
+    &--ativo {
+      background-color: $black;
+      color: #fff;
+    }
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

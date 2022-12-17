@@ -1,0 +1,75 @@
+.box {
+  margin: 2em 25em 10em;
+  height: auto !important;
+}
+
+.input-boxes {
+  margin-top: 30px;
+}
+
+.input-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__icon {
+    position: absolute !important;
+    padding: 0 15px;
+    color: #000;
+    font-size: 17px;
+  }
+}
+
+.title {
+  margin: 1.5em 0 2em;
+}
+
+.input_boxes {
+  margin-top: 30px;
+}
+
+.input_box input {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border: none;
+  padding: 0 40px;
+  padding-bottom: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.input_box select {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border: none;
+  padding: 0 40px;
+  font-size: 16px;
+  font-weight: 500;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.input-box input:focus,
+.input-box input:valid {
+  border-color: #000;
+}
+
+.button.input_box {
+  padding: 0;
+  border: none;
+}
+.text {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+}
+.text a {
+  text-decoration: none;
+}
+.text a:hover {
+  text-decoration: underline;
+}

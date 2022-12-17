@@ -1,0 +1,47 @@
+
+
+nav .menu {
+  padding: 1em;
+}
+
+h1 {
+  margin: 30px;
+}
+
+.logo {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+}
+
+.__header {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  margin: 0 2em;
+  h3 {
+    position: absolute;
+    left: 48%;
+  }
+  
+}
+
+.__filter {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.cardapio {
+  position: relative;
+  display: block;
+
+  &__filter {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+}

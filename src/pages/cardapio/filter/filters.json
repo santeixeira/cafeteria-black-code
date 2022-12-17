@@ -1,0 +1,18 @@
+[
+  {
+    "label": "Bebidas Quentes",
+    "id": 0
+  },
+  {
+    "label": "Bebidas Frias",
+    "id": 1
+  },
+  {
+    "label": "Comidas",
+    "id": 2
+  },
+  {
+    "label": "Copos",
+    "id": 3
+  }
+]
