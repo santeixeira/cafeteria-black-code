@@ -3,6 +3,10 @@
     "titles": {
       "home": "Bem vindo a Black Code.",
       "cardapio": "Cardápio"
+    },
+    "subtitles": {
+      "home": "Onde debugar, só com um bom café.",
+      "cardapio": "Confira nossas opções."
     }
   }
 ]

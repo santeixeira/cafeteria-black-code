@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns:ns1="http://sozi.baierouge.fr"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    id="svg2481"
+    sodipodi:docname="CoffeeCup.svg"
+    viewBox="0 0 55.047 83.94"
+    sodipodi:version="0.32"
+    version="1.0"
+    inkscape:output_extension="org.inkscape.output.svg.inkscape"
+    inkscape:version="0.46"
+  >
+  <sodipodi:namedview
+      id="base"
+      bordercolor="#666666"
+      inkscape:pageshadow="2"
+      guidetolerance="10"
+      pagecolor="#ffffff"
+      gridtolerance="10000"
+      inkscape:window-height="667"
+      inkscape:zoom="2.8"
+      objecttolerance="10"
+      showgrid="false"
+      borderopacity="1.0"
+      inkscape:current-layer="layer1"
+      inkscape:cx="0.20281873"
+      inkscape:cy="43.097583"
+      inkscape:window-y="210"
+      inkscape:window-x="88"
+      inkscape:window-width="640"
+      inkscape:pageopacity="0.0"
+      inkscape:document-units="px"
+  />
+  <g
+      id="layer1"
+      inkscape:label="Layer 1"
+      inkscape:groupmode="layer"
+      transform="translate(-123.91 -110.39)"
+    >
+    <g
+        id="g3689"
+        transform="matrix(0.16 0 0 .15467 276.85 81.117)"
+      >
+      <path
+          id="path3691"
+          sodipodi:rx="165.66502"
+          sodipodi:ry="56.568542"
+          style="stroke:#000000;stroke-width:6.7542;fill:#ffffff"
+          sodipodi:type="arc"
+          d="m-618.21 255.35a165.67 56.569 0 1 1 -331.33 0 165.67 56.569 0 1 1 331.33 0z"
+          transform="matrix(1.0182 0 0 .99963 14.241 -5.967)"
+          sodipodi:cy="255.35182"
+          sodipodi:cx="-783.87836"
+      />
+      <path
+          id="path3693"
+          sodipodi:nodetypes="csccsccc"
+          style="stroke:#000000;stroke-width:6.814;fill:#ffffff"
+          d="m-617.19 268.47c-9.92 31.03-92.09 51.48-184.66 48.16-73.08-2.63-130.14-19.64-147.09-42.87l58.5 422.12c11.04 17.83 49.61 30.45 98.98 32.4 62.56 2.47 118.77-14.22 124.76-35.53l49.51-424.28z"
+      />
+      <path
+          id="path3695"
+          sodipodi:nodetypes="cccsccsc"
+          style="stroke:#000000;stroke-width:6.814;fill:#ffffff"
+          d="m-904.48 649.49l-33.95-235.54c14.71 20.15 68.36 37.09 136.41 39.46 86.21 2.99 164.19-17.12 173.19-43.33l-24.74 236.2c-6.89 21.29-69.88 37.89-139.99 35.44-55.34-1.94-98.55-14.5-110.92-32.23z"
+      />
+    </g
+    >
+  </g
+  >
+  <metadata
+    >
+    <rdf:RDF
+      >
+      <cc:Work
+        >
+        <dc:format
+          >image/svg+xml</dc:format
+        >
+        <dc:type
+            rdf:resource="http://purl.org/dc/dcmitype/StillImage"
+        />
+        <cc:license
+            rdf:resource="http://creativecommons.org/licenses/publicdomain/"
+        />
+        <dc:publisher
+          >
+          <cc:Agent
+              rdf:about="http://openclipart.org/"
+            >
+            <dc:title
+              >Openclipart</dc:title
+            >
+          </cc:Agent
+          >
+        </dc:publisher
+        >
+        <dc:title
+          >Paper Coffee Cup</dc:title
+        >
+        <dc:date
+          >2011-08-12T10:37:36</dc:date
+        >
+        <dc:description
+          >Iconographic coffee cup, to hold your favorite $5 drink</dc:description
+        >
+        <dc:source
+          >https://openclipart.org/detail/154891/paper-coffee-cup-by-gregordv</dc:source
+        >
+        <dc:creator
+          >
+          <cc:Agent
+            >
+            <dc:title
+              >GregorDV</dc:title
+            >
+          </cc:Agent
+          >
+        </dc:creator
+        >
+        <dc:subject
+          >
+          <rdf:Bag
+            >
+            <rdf:li
+              >coffee cup</rdf:li
+            >
+            <rdf:li
+              >paper cup</rdf:li
+            >
+            <rdf:li
+              >starbucks</rdf:li
+            >
+          </rdf:Bag
+          >
+        </dc:subject
+        >
+      </cc:Work
+      >
+      <cc:License
+          rdf:about="http://creativecommons.org/licenses/publicdomain/"
+        >
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#Reproduction"
+        />
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#Distribution"
+        />
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#DerivativeWorks"
+        />
+      </cc:License
+      >
+    </rdf:RDF
+    >
+  </metadata
+  >
+</svg
+>

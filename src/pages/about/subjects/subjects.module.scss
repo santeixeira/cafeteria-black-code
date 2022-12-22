@@ -1,24 +1,39 @@
+.title {
+  position: absolute;
+  z-index: 2;
+  padding: 0.5em 1em;
+  margin: 4em 3em;
+  color: #fff;
+  background-color: #000;
+  text-align: start;
+}
+
 .subtemas {
   margin-top: 3em;
   display: block;
   text-align: center;
   justify-content: center;
+
   &__img {
     align-items: center;
+    position: relative;
     margin: 1em 0;
     max-height: 30em;
+    width: 100%;
+    padding: 2em 6em;
+    object-fit: cover;
+    object-position: 70% 100%;
     & img {
-      height: 20em;
-      width: 20em !important;
-      object-fit: cover;
+      border-radius: 4px;
     }
-    
   }
   &__description {
+    position: relative;
+    display: block;
     text-align: center;
     &__text {
-        margin: 2em;
-        text-align: justify;
-      }
+      margin: 1em 5em;
+      text-align: justify;
+    }
   }
 }

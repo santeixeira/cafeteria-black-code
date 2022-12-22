@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  margin: 3em 0;
+  gap: 30px;
+  &__address {
+    display: block;
+    & h3 {
+      font-size: 2em;
+      margin: 0.25em 0em;
+    }
+  }
+  &__img {
+    height: 20em;
+    width: 20em;
+    max-width: 30em;
+    object-fit: cover;
+    border-radius: 6px;
+  }
+  &__overlays {
+    background: #000;
+  }
+  &__text {
+    display: flex;
+    align-items: center;
+  }
+}

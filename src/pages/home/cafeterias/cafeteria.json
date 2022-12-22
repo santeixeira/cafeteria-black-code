@@ -1,0 +1,32 @@
+[
+  {
+    "nome": "Loja de Fortaleza",
+    "endereco": "Rua Barão de Aracati, 1293",
+    "img": "https://images.pexels.com/photos/887723/pexels-photo-887723.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  },
+  {
+    "nome": "Loja de São Paulo",
+    "endereco": "Av. Paulista, 1230",
+    "img": "https://images.pexels.com/photos/2467287/pexels-photo-2467287.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  },
+  {
+    "nome": "Loja de Recife",
+    "endereco": "Rua Araucaria, 902",
+    "img": "https://images.pexels.com/photos/9914194/pexels-photo-9914194.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  },
+  {
+    "nome": "Loja da Beira Mar",
+    "endereco": "Av. Beira Mar, 791",
+    "img": "https://images.pexels.com/photos/769153/pexels-photo-769153.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  },
+  {
+    "nome": "Loja de Copacabana",
+    "endereco": "Av. Copacabana, 2791",
+    "img": "https://images.pexels.com/photos/2199190/pexels-photo-2199190.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  },
+  {
+    "nome": "Loja do Centro",
+    "endereco": "Rua Augusta, 291",
+    "img": "https://images.pexels.com/photos/8505922/pexels-photo-8505922.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  }
+]

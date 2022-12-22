@@ -1,17 +1,18 @@
 [
   {
-    "title": "Selecao de cafes",
+    "title": "Como fazemos a seleção de nossos cafés!",
     "description": "Coffee grain selection is an important process in the production of high-quality coffee. The type of grain, as well as its origin and processing method, can have a significant impact on the taste and flavor of the final product. There are two main types of coffee grains: Arabica and Robusta. Arabica grains are known for their sweet, smooth flavor and are generally considered to be of higher quality. They are grown at higher elevations and are more difficult to cultivate, which is reflected in their higher price. Robusta grains, on the other hand, have a stronger, more bitter flavor and are generally considered to be of lower quality.",
-    "img": "https://images.pexels.com/photos/7488731/pexels-photo-7488731.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    "img": "https://images.pexels.com/photos/894695/pexels-photo-894695.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
   },
   {
-    "title": "Maquinário e nossos baristas",
+    "title": "Nosso maquinário e equipe de baristas",
     "description": "Once the coffee grains have been processed and roasted, they are ready to be brewed. There is a wide range of coffee brewing equipment available, ranging from simple manual brewers to more complex, automated machines. Some popular options include French presses, pour-over brewers, and espresso machines. In addition to the equipment used for brewing, there are also a variety of tools and accessories used to prepare and serve coffee, such as grinders, milk frothers, and thermometers. Overall, coffee machinery plays a crucial role in the production and enjoyment of coffee. From the cultivation and processing of the grains to the brewing and serving of the final product, the right equipment can make a big difference in the quality and consistency of the coffee experience",
-    "img": "https://images.pexels.com/photos/7488731/pexels-photo-7488731.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    "img": "https://images.pexels.com/photos/2067431/pexels-photo-2067431.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
   },
   {
-    "title": "Ambiente perfeito para o seu co-working",
-    "description": "Teste",
-    "img": "https://images.pexels.com/photos/3194524/pexels-photo-3194524.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    "title": "Ótimo ambiente para programadores e designers.",
+    "description": "Tech work environments are generally fast-paced and dynamic, as they often involve working on multiple projects at once and adapting to new technologies and changing customer needs. Communication and collaboration are also important in these environments, as employees may need to work closely with others in their team, as well as with clients and stakeholders. To be successful in a tech work environment, employees should have strong technical skills and be comfortable working with a variety of technologies. They should also be able to work well under pressure, handle multiple tasks at once, and be able to adapt to change. In addition, good communication and collaboration skills are essential for working effectively with others and solving complex problems.",
+    "img": "https://images.pexels.com/photos/1438445/pexels-photo-1438445.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
   }
+
 ]

@@ -1,12 +1,13 @@
 import menu from '../../data/menu.json';
+import Cafeteira from './cafeterias';
 import styles from './home.module.scss';
 
 const Home = () => {
   let recommended = [...menu];
-  recommended = recommended.sort(() => 0.5 - Math.random()).splice(0, 2);
+  recommended = recommended.sort(() => 0.5 - Math.random()).splice(0, 3);
   return (
     <section>
-      <h3 className={styles.title}>Recomendados</h3>
+      <h2 className={styles.title}>Recomendados</h2>
       <div className={styles.recommendations}>
         {recommended.map((item) => (
           <div key={item.id} className={styles.recommended}>
@@ -18,7 +19,8 @@ const Home = () => {
         ))}
       </div>
       <div className={styles.cafeterias}>
-        <h3 className={styles.cafeterias__titulo}>Nossas cafeterias</h3>
+        <h2 className={styles.title}>Nossas cafeterias</h2>
+        <Cafeteira></Cafeteira>
       </div>
     </section>
   );
