@@ -1,6 +1,6 @@
 {
-  "name": "pizzaria",
-  "version": "0.1.0",
+  "name": "cafeteira",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -11,10 +11,12 @@
     "@types/react": "^18.0.25",
     "@types/react-dom": "^18.0.9",
     "classnames": "^2.3.2",
+    "craco": "^0.0.3",
     "hamburger-react": "^2.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.7.1",
+    "react-router-dom": "^6.5.0",
     "react-scripts": "5.0.1",
     "typescript": "^4.9.3",
     "web-vitals": "^2.1.4"
@@ -51,6 +53,7 @@
     "eslint-plugin-react": "^7.31.11",
     "postcss": "^8.4.20",
     "tailwindcss": "^3.2.4",
+    "tsconfig-paths-webpack-plugin": "^4.0.0",
     "typescript-plugin-css-modules": "^4.1.1"
   }
 }

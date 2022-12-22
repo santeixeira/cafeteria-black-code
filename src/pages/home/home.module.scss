@@ -1,0 +1,43 @@
+@import url('../../assets/config_scss/color.scss');
+
+$size: 15em;
+
+.title {
+  margin: 1em 0;
+}
+
+.recommendations {
+  border-radius: 2px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.recommended {
+  &__img {
+    height: $size;
+    width: $size;
+    margin-right: 3em;
+    & img {
+      position: relative;
+      height: 15em;
+      width: 100em;
+      object-fit: cover;
+      border-radius: 4px;
+    }
+  }
+  &__btn {
+    margin: 10px 0;
+    border: 2px solid #000;
+    cursor: pointer;
+    padding: 10px 0;
+    transition: 0.2s ease;
+    width: $size;
+    &:hover {
+      background-color: #000;
+      color: #fff;
+    }
+  }
+}

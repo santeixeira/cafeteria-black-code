@@ -1,5 +1,14 @@
 .items {
-    display: block;
-    position: relative;
-    align-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  grid-gap: 30px;
+  position: relative;
+  align-content: center;
+}
+
+@media only screen and (max-width: 1920px) {
+  .items {
+    grid-gap: 0;
+    row-gap: 30px;
+  }
 }

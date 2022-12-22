@@ -6,7 +6,7 @@
   margin: 1em 2em;
   align-items: center;
   justify-content: space-between;
-  width: 920px;
+  max-width: 720px;
   &__img {
     height: 15em;
     max-width: 15em;
@@ -34,7 +34,6 @@
 
   &__tags {
     display: flex;
-    width: 75%;
     justify-content: space-between;
     align-items: center;
   }
@@ -43,22 +42,22 @@
     border-radius: 4px;
     border: 2px solid #000;
     padding: 0.5em;
-    &__1 {
+    &__0 {
       border: none;
       background-color: $purple;
       color: #fff;
     }
-    &__2 {
+    &__1 {
       border: none;
       background-color: $dark-blue;
       color: #fff;
     }
-    &__3 {
+    &__2 {
       border: none;
       background-color: $green;
       color: #fff;
     }
-    &__4 {
+    &__3 {
       border: none;
       background-color: $black;
       color: #fff;

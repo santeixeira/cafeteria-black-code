@@ -1,9 +1,9 @@
-import styles from "./sorter.module.scss";
-import options from "./options.json";
-import ISorter from "./ISorter";
-import { useState } from "react";
-import classNames from "classnames";
-import { MdKeyboardArrowUp, MdKeyboardArrowDown } from "react-icons/md";
+import styles from './sorter.module.scss';
+import options from './options.json';
+import ISorter from './ISorter';
+import { useState } from 'react';
+import classNames from 'classnames';
+import { MdKeyboardArrowUp, MdKeyboardArrowDown } from 'react-icons/md';
 
 const Sorted = ({ sorter, setSorter }: ISorter) => {
   const [open, setOpen] = useState(false);
@@ -13,12 +13,12 @@ const Sorted = ({ sorter, setSorter }: ISorter) => {
     <button
       className={classNames({
         [styles.sorter]: true,
-        [styles["sorter--ativo"]]: sorter !== "",
+        [styles['sorter--ativo']]: sorter !== '',
       })}
       onClick={() => setOpen(!open)}
       onBlur={() => setOpen(false)}
     >
-      <span>{nameSorter || "Ordenar por"}</span>
+      <span>{nameSorter || 'Ordenar por'}</span>
       {open ? (
         <MdKeyboardArrowUp size={20} />
       ) : (
@@ -27,7 +27,7 @@ const Sorted = ({ sorter, setSorter }: ISorter) => {
       <div
         className={classNames({
           [styles.sorter__options]: true,
-          [styles["sorter__options--ativo"]]: open,
+          [styles['sorter__options--ativo']]: open,
         })}
       >
         {options.map((option) => (

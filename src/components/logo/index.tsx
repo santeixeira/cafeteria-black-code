@@ -1,8 +1,8 @@
-import styles from "./logo.module.scss";
+import styles from './logo.module.scss';
 
 const Logo = () => {
   return (
-    <div className={styles.logo} onClick={() => {}}>
+    <div className={styles.logo}>
       <img
         src="http://cdn.onlinewebfonts.com/svg/img_482157.png"
         alt="logo"

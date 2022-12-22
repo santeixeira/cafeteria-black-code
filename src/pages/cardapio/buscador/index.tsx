@@ -1,6 +1,6 @@
-import React from "react";
-import styles from "./text.module.scss";
-import { CgSearch } from "react-icons/cg";
+import React from 'react';
+import styles from './text.module.scss';
+import { CgSearch } from 'react-icons/cg';
 
 interface Props {
   search: string;
@@ -14,12 +14,12 @@ const Search = ({ search, setSearch }: Props) => {
         size={20}
         color="#d0d0f2"
         style={{
-          position: "absolute",
+          position: 'absolute',
           margin: 2.5,
         }}
       />
       <input value={search} onChange={(e) => setSearch(e.target.value)}
-      placeholder="Buscar" />
+        placeholder="Buscar" />
     </div>
   );
 };

@@ -1,4 +1,4 @@
-import styles from "./buttons.module.scss";
+import styles from './buttons.module.scss';
 
 const MainButton = () => {
   return (

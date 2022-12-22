@@ -1,13 +1,33 @@
-import styles from "./navbar.module.scss";
+import Logo from '../logo';
+import { Link } from 'react-router-dom';
+import styles from './navbar.module.scss';
 
 const Navbar = () => {
+  const routes = [
+    {
+      label: 'Início',
+      to: '/',
+    },
+    {
+      label: 'Cardápio',
+      to: '/cardapio',
+    },
+    {
+      label: 'Sobre',
+      to: 'sobre',
+    },
+  ];
   return (
-    <>
-      <li>Link</li>
-      <li></li>
-      <li></li>
-      <li></li>
-    </>
+    <nav className={styles.menu}>
+      <Logo />
+      <ul className={styles.menu__list}>
+        {routes.map((route, index) => (
+          <li key={index} className={styles.menu__link}>
+            <Link to={route.to}>{route.label}</Link>
+          </li>
+        ))}
+      </ul>
+    </nav>
   );
 };
 

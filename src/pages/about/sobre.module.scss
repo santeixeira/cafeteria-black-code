@@ -1,0 +1,27 @@
+.titulo {
+    text-align: left;
+    margin: 0.75em 0.5em;
+}
+
+.sobreNos {
+  display: flex;
+  max-width: 80em;
+  align-items: center;
+  justify-content: space-between;
+
+  &__text {
+    display: block;
+    text-align: justify;
+  }
+  & img {
+    position: relative;
+    height: 25em;
+    width: 100em;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-right: 3em;
+  }
+  & p {
+    margin: 1.75em;
+  }
+}

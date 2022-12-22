@@ -1,29 +1,34 @@
-import { useState } from "react";
-import styles from "./cardapio.module.scss";
-import Logo from "../../components/logo";
-import Banner from "../../components/banner";
-import Search from "./buscador";
-import { Slant as Hamburger } from "hamburger-react";
-import Filter from "./filter";
-import Sorter from "./sorter";
-import Items from "./items";
+import { useState } from 'react';
+import styles from './cardapio.module.scss';
+import Search from './buscador';
+import { Slant as Hamburger } from 'hamburger-react';
+import Filter from './filter';
+import Sorter from './sorter';
+import Items from './items';
+import classNames from 'classnames';
 
 const Cardapio = () => {
-  const [search, setSearch] = useState("");
+  const [search, setSearch] = useState('');
   const [filter, setFilter] = useState<number | null>(null);
-  const [sorter, setSorter] = useState("");
+  const [sorter, setSorter] = useState('');
+  const [hide, setHide] = useState(false);
   return (
     <main>
       <nav className={styles.menu}>
-        <Banner />
         <div className={styles.__header}>
-          <Logo />
-          <h3>Menu</h3>
-          <Hamburger />
+          <h3>Filtros</h3>
+          <button onClick={() => setHide(!hide)}>
+            <Hamburger />
+          </button>
         </div>
       </nav>
       <section className={styles.cardapio}>
-        <div className={styles.cardapio__filter}>
+        <div
+          className={classNames({
+            [styles.cardapio__filter]: true,
+            [styles['cardapio__filter--ativo']]: hide,
+          })}
+        >
           <Search search={search} setSearch={setSearch} />
           <Filter filter={filter} setFilter={setFilter} />
           <Sorter sorter={sorter} setSorter={setSorter} />

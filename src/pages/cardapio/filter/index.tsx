@@ -1,7 +1,7 @@
-import React from "react";
-import filters from "./filters.json";
-import styles from "./filters.module.scss";
-import classNames from "classnames";
+import React from 'react';
+import filters from './filters.json';
+import styles from './filters.module.scss';
+import classNames from 'classnames';
 
 interface IOption {
   label: string;
@@ -24,7 +24,7 @@ const Filter = ({ filter, setFilter }: Props) => {
         <button
           className={classNames({
             [styles.filters__filter]: true,
-            [styles["filters__filter--ativo"]]: filter === option.id,
+            [styles['filters__filter--ativo']]: filter === option.id,
           })}
           key={option.id}
           onClick={() => selectFilter(option)}

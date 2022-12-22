@@ -1,11 +1,11 @@
-import styles from "./item.module.scss";
-import items from "../items.json";
-import classNames from "classnames";
+import styles from './item.module.scss';
+import items from '@/data/menu.json';
+import classNames from 'classnames';
 
 type IItem = typeof items[0];
 
 const Item = (props: IItem) => {
-  const { title, description, category, size, serving, price, photos } = props;
+  const { title, description, category, size, price, photos } = props;
   return (
     <div className={styles.item}>
       <div className={styles.item__img}>
@@ -24,9 +24,9 @@ const Item = (props: IItem) => {
             {category.label}
           </div>
           <div className={styles.item__porcao}>{size} mL</div>
-          <div className={styles.item__qtdpessoas}>
-            Serve {serving} pessoa{serving === 1 ? "" : "s"}
-          </div>
+          {/* <div className={styles.item__qtdpessoas}>
+            Serve {serving} pessoa{serving === 1 ? '' : 's'}
+          </div> */}
           <div className={styles.item__valor}>R$ {price.toFixed(2)}</div>
         </div>
       </div>
