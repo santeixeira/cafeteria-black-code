@@ -13,6 +13,14 @@ const Banner = () => {
       return data.map((item) => item.titles.home);
     }
   };
+  const subTitles = (path: string) => {
+    switch (path) {
+    case '/cardapio':
+      return data.map((item) => item.subtitles.cardapio);
+    default:
+      return data.map((item) => item.subtitles.home);
+    }
+  }
 
   return (
     <div className={styles.__banner}>
@@ -22,7 +30,7 @@ const Banner = () => {
       />
       <div className={styles.__banner_txt}>
         <h1>{title(path)}</h1>
-        <h2>Simples assim!</h2>
+        <h2>{subTitles(path)}</h2>
       </div>
     </div>
   );
